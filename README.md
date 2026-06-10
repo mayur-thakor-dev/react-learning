@@ -11,17 +11,17 @@ This repository contains my React learning journey, practice exercises, notes, a
 * Event Handling (onClick)
 * Event Object
 * onChange Events
+* useState
+* Conditional Rendering
 
 ## Currently Learning
 
-* useState
+* Lists & map()
 
 ## Upcoming Topics
 
 ### React Fundamentals
 
-* useState
-* Conditional Rendering
 * Lists & map()
 * Forms
 * useEffect
@@ -42,7 +42,7 @@ This repository contains my React learning journey, practice exercises, notes, a
 ## Tech Stack
 
 * React
-* JavaScript
+* JavaScript (ES6+)
 * CSS
 
 ## Repository Structure
@@ -50,15 +50,16 @@ This repository contains my React learning journey, practice exercises, notes, a
 src/
 ├── concepts/
 │ ├── JSXBasics.jsx
-│ ├── ComponentsDemo.jsx
 │ ├── PropsDemo.jsx
 │ ├── EventDemo.jsx
 │ ├── EventObjectDemo.jsx
-│ └── OnChangeDemo.jsx
+│ ├── OnChangeDemo.jsx
+│ ├── useState/
+│ └── conditionRe_01.jsx
 
 ## Goal
 
-Build strong React fundamentals before moving to production-level applications and full-stack development.
+Build strong React fundamentals before creating production-level applications and full-stack projects.
 
 ## Progress Tracker
 
@@ -69,8 +70,8 @@ Build strong React fundamentals before moving to production-level applications a
 * [x] Event Handling
 * [x] Event Object
 * [x] onChange
-* [ ] useState
-* [ ] Conditional Rendering
+* [x] useState
+* [x] Conditional Rendering
 * [ ] Lists & map()
 * [ ] Forms
 * [ ] useEffect
@@ -78,5 +79,5 @@ Build strong React fundamentals before moving to production-level applications a
 * [ ] React Router
 * [ ] Context API
 * [ ] Custom Hooks
-* [ ] Performance
+* [ ] Performance Optimization
 * [ ] Deployment
