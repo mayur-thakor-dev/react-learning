@@ -80,4 +80,3 @@ Build strong React fundamentals before creating production-level applications an
 * [ ] Context API
 * [ ] Custom Hooks
 * [ ] Performance Optimization
-* [ ] Deployment
