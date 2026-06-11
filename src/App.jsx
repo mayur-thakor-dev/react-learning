@@ -8,7 +8,8 @@
 // import InputChange from "./concepts/useState/UseState_03";
 // import DarkMode from "./concepts/useState/DarkModePra";
 // import CharacterCounter from "./concepts/useState/CharacterCounter";
-import IsloggedIn from "./concepts/conditionRe_01";
+// import IsloggedIn from "./concepts/conditionRe_01";
+import CourseLists from "./concepts/MapMethod";
 
 function App() {
   return (
@@ -41,8 +42,11 @@ function App() {
       {/* <DarkMode /> */}
       {/* <CharacterCounter /> */}
 
-        {/* conditional Rendering  */}
-        <IsloggedIn name="mayur" />
+      {/* conditional Rendering  */}
+      {/* <IsloggedIn name="mayur" /> */}
+
+        {/* // Map Method for Data Rendering */}
+      < CourseLists />
 
     </>
 
