@@ -9,7 +9,13 @@
 // import DarkMode from "./concepts/useState/DarkModePra";
 // import CharacterCounter from "./concepts/useState/CharacterCounter";
 // import IsloggedIn from "./concepts/conditionRe_01";
-import CourseLists from "./concepts/MapMethod";
+// import CourseLists from "./concepts/MapMethod";
+// import EmployeesList from "./concepts/ArrObjRender";
+// import UserForm from "./concepts/UserForm";
+// import RegistrationForm from "./concepts/RegistrationForm";
+// import FormSubmit from "./concepts/FormSubmit";
+// import UseEffectBasics from "./concepts/useEffect/UseEffectBasics";
+import ThemeToggle from "./concepts/useEffect/ThemeToggle";
 
 function App() {
   return (
@@ -45,10 +51,27 @@ function App() {
       {/* conditional Rendering  */}
       {/* <IsloggedIn name="mayur" /> */}
 
-        {/* // Map Method for Data Rendering */}
-      < CourseLists />
+      {/* // Map Method for Data Rendering and Key In React*/}
+      {/* < CourseLists /> */}
 
+      {/* // Array Object Rendering  */}
+      {/* <EmployeesList /> */}
+
+
+      {/* // useState and onChnage ----> user Form */}
+      {/* <UserForm /> */}
+
+      {/* Registration Form  */}
+      {/* <RegistrationForm /> */}
+
+      {/* // form basic  */}
+      {/* <FormSubmit /> */}
+
+      {/* useEffect Concept  */}
+      {/* <UseEffectBasics /> */}
+      <ThemeToggle />
     </>
+
 
   );
 }

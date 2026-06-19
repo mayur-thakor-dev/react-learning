@@ -4,21 +4,42 @@ This repository contains my React learning journey, practice exercises, notes, a
 
 ## Topics Covered
 
-* React Setup
-* JSX
-* Components
-* Props
-* Event Handling (onClick)
-* Event Object
-* onChange Events
-* useState
-* Conditional Rendering
+✅ Setup
+✅ JSX
+✅ Components
+✅ Props
+✅ Events
+✅ Event Object
+✅ onChange
+✅ useState
+✅ Conditional Rendering
+✅ Lists & map()
+✅ Keys
+✅ Rendering Objects
+✅ Forms Basics
+✅ Controlled Components
+✅ Multiple Inputs
+✅ Form Submit
+✅ preventDefault()
+✅ Validation
+✅ useEffect Basics
+✅ Dependency Array
 
 ## Currently Learning
 
-* Lists & map()
+* Cleanup Function
 
 ## Upcoming Topics
+
+🚀 Cleanup Function
+🚀 Fetch API
+🚀 API Calling with useEffect
+🚀 Loading State
+🚀 Error Handling
+🚀 JSON Server / Fake API
+🚀 CRUD Operations
+🚀 useRef
+🚀 React Router
 
 ### React Fundamentals
 
@@ -61,22 +82,3 @@ src/
 
 Build strong React fundamentals before creating production-level applications and full-stack projects.
 
-## Progress Tracker
-
-* [x] React Setup
-* [x] JSX
-* [x] Components
-* [x] Props
-* [x] Event Handling
-* [x] Event Object
-* [x] onChange
-* [x] useState
-* [x] Conditional Rendering
-* [ ] Lists & map()
-* [ ] Forms
-* [ ] useEffect
-* [ ] API Calling
-* [ ] React Router
-* [ ] Context API
-* [ ] Custom Hooks
-* [ ] Performance Optimization
