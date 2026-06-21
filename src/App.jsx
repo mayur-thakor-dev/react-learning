@@ -15,7 +15,9 @@
 // import RegistrationForm from "./concepts/RegistrationForm";
 // import FormSubmit from "./concepts/FormSubmit";
 // import UseEffectBasics from "./concepts/useEffect/UseEffectBasics";
-import ThemeToggle from "./concepts/useEffect/ThemeToggle";
+// import ThemeToggle from "./concepts/useEffect/ThemeToggle";
+// import HandleTimer from "./concepts/useEffect/Handletimer";
+import UserList from "./concepts/api/UserList";
 
 function App() {
   return (
@@ -69,7 +71,13 @@ function App() {
 
       {/* useEffect Concept  */}
       {/* <UseEffectBasics /> */}
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
+
+      {/* cleanup function return  */}
+      {/* <HandleTimer /> */}
+
+      {/* API call  */}
+      <UserList />
     </>
 
 
