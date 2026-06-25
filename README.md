@@ -51,6 +51,20 @@ I am currently focused on strengthening React fundamentals and gradually moving 
 
 ---
 
+### 🔹 React Router
+
+- BrowserRouter
+- Routes & Route
+- Navigation using Link
+- NavLink
+- Route Parameters
+- useParams Hook
+- Nested Routes
+- Dynamic Routing
+- 404 Not Found Page
+
+---
+
 ## 🚧 Current Focus (Learning Phase)
 
 Right now I am practicing and improving:
@@ -65,7 +79,6 @@ Right now I am practicing and improving:
 
 ## 📌 Upcoming Topics (Road to Intermediate React)
 
-- 🔥 React Router (Navigation System)
 - 🔥 Real API Integration (CRUD Operations)
 - 🔥 Context API (Global State Management)
 - 🔥 Advanced Form Validation
