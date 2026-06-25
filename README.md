@@ -79,12 +79,81 @@ Right now I am practicing and improving:
 
 ## 📌 Upcoming Topics (Road to Intermediate React)
 
-- 🔥 Real API Integration (CRUD Operations)
-- 🔥 Context API (Global State Management)
-- 🔥 Advanced Form Validation
-- 🔥 Custom Hooks (Reusable Logic)
-- 🔥 Project Building (Real-world apps)
-- 🔥 Deployment (Netlify / Vercel)
+- Context API ⭐⭐⭐⭐⭐
+
+Very Important
+
+❌ Context API
+❌ createContext()
+❌ Provider
+❌ useContext()
+❌ Global State
+
+Real World Usage:
+
+User Login
+Theme
+Cart
+Language
+Profile
+
+Phase 8: Forms ⭐⭐⭐⭐⭐
+❌ Controlled Components
+❌ Form Validation
+❌ Multiple Inputs
+❌ Login Form
+❌ Signup Form
+
+Interview Favorite.
+
+Phase 9: CRUD Operations ⭐⭐⭐⭐⭐
+
+Most Important for MERN
+
+❌ Create Data
+❌ Read Data
+❌ Update Data
+❌ Delete Data
+
+Real Project:
+
+Todo App
+Notes App
+Task Manager
+Student Management
+
+Phase 10: Custom Hooks ⭐⭐⭐⭐
+❌ Reusable Logic
+❌ useFetch()
+❌ Custom Hook Pattern
+
+Phase 11: Authentication Flow ⭐⭐⭐⭐⭐
+❌ Login
+❌ Logout
+❌ Token
+❌ Protected Route
+❌ Private Route
+
+Phase 12: Advanced React Router ⭐⭐⭐⭐
+❌ Nested Routes
+❌ Outlet
+❌ Layout Components
+❌ Protected Routes
+
+Phase 13: Performance Optimization ⭐⭐⭐
+❌ useMemo
+❌ useCallback
+❌ React.memo
+
+Phase 14: Full Stack Integration ⭐⭐⭐⭐⭐
+
+This is where React meets Node.js.
+
+❌ React + Express
+❌ React + MongoDB
+❌ Axios
+❌ JWT Auth
+❌ Full MERN Project
 
 ---
 
