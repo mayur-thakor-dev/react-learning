@@ -134,64 +134,103 @@
 
 // React router project 
 
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
-import Navbar from "./concepts/router/Navbar";
+// import {
+//   BrowserRouter,
+//   Routes,
+//   Route
+// } from "react-router-dom";
+// import Navbar from "./concepts/router/Navbar";
 
-import UserList from "./projects/router_api-project/UserList";
-import User from "./concepts/router/pages/User";
+// import UserList from "./projects/router_api-project/UserList";
+// import User from "./concepts/router/pages/User";
 
-import Home from "./concepts/router/pages/Home";
-import About from "./concepts/router/pages/About";
-import Contact from "./concepts/router/pages/Contact";
-import NotFound from "./concepts/router/pages/NotFound";
+// import Home from "./concepts/router/pages/Home";
+// import About from "./concepts/router/pages/About";
+// import Contact from "./concepts/router/pages/Contact";
+// import NotFound from "./concepts/router/pages/NotFound";
+
+// function App() {
+
+//   return (
+
+//     <BrowserRouter>
+//       <Navbar />
+//       <Routes>
+
+//         <Route
+//           path="/"
+//           element={<Home />}
+//         />
+
+//         <Route
+//           path="/users"
+//           element={<UserList />}
+//         />
+
+//         <Route
+//           path="/user/:id"
+//           element={<User />}
+//         />
+
+//         <Route
+//           path="/about"
+//           element={<About />}
+//         />
+
+//         <Route
+//           path="/contact"
+//           element={<Contact />}
+//         />
+
+//         <Route
+//           path="*"
+//           element={<NotFound />}
+//         />
+
+//       </Routes>
+
+//     </BrowserRouter>
+
+//   );
+// }
+
+// export default App;
+
+
+// ===================================================================
+
+
+// Context API 
+import { useState } from "react";
+
+import UserContext from "./concepts/context/UserContext";
+import Profile from "./concepts/components/Profile";
+import Navbar from "./concepts/components/Navbar";
 
 function App() {
 
-  return (
+    const [user, setUser] = useState({
 
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
+        name: "Mayur",
+        role: "Frontend Developer"
+    });
 
-        <Route
-          path="/"
-          element={<Home />}
-        />
+    return (
+        <>
 
-        <Route
-          path="/users"
-          element={<UserList />}
-        />
+            <UserContext.Provider value={{
+                user,
+                setUser
+            }}>
 
-        <Route
-          path="/user/:id"
-          element={<User />}
-        />
-
-        <Route
-          path="/about"
-          element={<About />}
-        />
-
-        <Route
-          path="/contact"
-          element={<Contact />}
-        />
-
-        <Route
-          path="*"
-          element={<NotFound />}
-        />
-
-      </Routes>
-
-    </BrowserRouter>
-
-  );
+                <div className="container mt-5">
+                    <h1>Context API Demo</h1>
+                    <Navbar />
+                    <Profile />
+                </div>
+            </UserContext.Provider>
+        </>
+    )
 }
 
 export default App;
